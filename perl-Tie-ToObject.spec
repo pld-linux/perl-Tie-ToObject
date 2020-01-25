@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	ToObject
 Summary:	Tie::ToObject - Tie to an existing object.
